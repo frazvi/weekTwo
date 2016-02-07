@@ -13,7 +13,6 @@ angular
 		}
 		$scope.h1 = false
 	
-		$scope.excited = function (string) {
-			string.charAt[string.length-1] + '!'
-		}
+		$scope.changeColor = true
+		
 	}])
