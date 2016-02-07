@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
+<script src="introAngular.js"></script>
+</head>
+<body ng-controller="myController">
+<button ng-click="printSomething()">I am a fun loving button!</button>
+<h1 ng-show="h1">This is some text.</h1>
+<button ng-click="printList()">
+	<ul ng-show="list"> This is an unordered list
+		<li> I am the first item </li>
+		<li> I am the middle item </li>
+		<li> I am the last item </li>
+	</ul>
+
+<h1> This is a heading </h1>
+	<p ng-style="excited"> This is some filler content </p>
+	<p a href="http://www.reddit.com"> This is some more filler content </p>
+<h1> This is the next heading <h1>
+	<p> This is something else <p>
+	<p a href="http://www.reddit.com"> I know you missed reddit <p>
+
+
+
+</body>
+</html>
